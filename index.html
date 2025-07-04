@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ===== Page Title ===== -->
+  <title>Vinay Raman | MERN Stack Developer</title>
+
+  <!-- ===== Character Encoding and Responsive Viewport Settings ===== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== SEO Meta Tags ===== -->
+  <meta name="description"
+  content="Vinay Raman Frontend Developer specializing in React.js, Tailwind CSS, and responsive UI/UX design. Explore my portfolio showcasing real-world web apps with seamless performance.">
+ 
+<meta name="keywords"
+  content="Vinay Raman, Frontend Developer, React.js Developer, Tailwind CSS, JavaScript, UI Developer, Responsive Web Design, Web Accessibility, Modern Web Apps, Single Page Applications, Portfolio, CSS Animations">
+ <meta name="author" content="Vinay Raman">
+
+  <!-- ===== Social Media Preview Tags (Open Graph) ===== -->
+  <meta property="og:title" content="Vinay-Raman | MERN Stack Developer">
+  <meta property="og:description"
+    content="Explore my portfolio of modern web applications built using React, Node.js, MongoDB, and more.">
+  <meta property="og:image" content="https://yourdomain.com/images/preview.png"> <!-- Replace with actual image URL -->
+  <meta property="og:url" content="https://yourdomain.com"> <!-- Replace with your actual domain -->
+  <meta property="og:type" content="website">
+
+  <!-- ===== Favicon ===== -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- ===== Google Fonts ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- ===== Font Awesome Icons (for social icons, etc.) ===== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTTXr4RxW0sA9w9Y6FAiU5bULd+t2o9azHnDk+G+lh6V3vh0OBEo4PL8xNj2twYyS1uQFYd7wA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ===== Custom Stylesheets ===== -->
+  <link rel="stylesheet" href="style.css"> <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css"> <!-- Additional/overriding styles -->
+
+  <!-- ===== EmailJS Script for Contact Form Integration ===== -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script> <!-- Legacy CDN -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <!-- Latest CDN -->
+
+  <!-- ===== EmailJS Initialization Script ===== -->
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "NwfdvgsZ5LJsaUotj", // Replace with your own Public Key from EmailJS dashboard
+      });
+    })();
+  </script>
+</head>
+
+<body data-scroll-container>
+  <!-- ===== HEADER SECTION ===== -->
+  <header class="header" data-scroll-section>
+    <nav>
+      <a href="index.html" id="nav-logo">
+        <div class="logo">Vinay Raman</div>
+      </a>
+
+      <!-- Hamburger Button -->
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a class="resume-btn" href="Assets/vinay-raman-resume.pdf.docx" download>Resume ⬇</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" data-scroll-section>
+      <div class="intro">
+        <!-- Main headline with parallax scroll speed -->
+        <h1 data-scroll data-scroll-speed="2">
+          Hello I'm <span class="bold">Vinay Raman</span><br>
+          Mern <span class="bold">Stack Developer</span><br>
+          Based In <span class="bold">India</span>.
+        </h1>
+        <p>Turning ideas into interactive, fast, and user-friendly web experiences.</p>
+
+        <!-- === Social Media Icons === -->
+        <div class="socials">
+          <a href="https://github.com/vinayraman10" target="_blank">
+            <img src="icons/github.png" alt="GitHub">
+          </a>
+          <a href="mailto:dev.vinayraman@gmail.com" target="_blank">
+            <img src="icons/gmail.png" alt="Email">
+          </a>
+          <a href="https://www.linkedin.com/in/vinay-raman/" target="_blank">
+            <img src="icons/linkedin.png" alt="LinkedIn">
+          </a>
+          <a href="https://wa.me/918273959691" target="_blank">
+            <img src="icons/whatsapp.png" alt="WhatsApp">
+          </a>
+
+          </a>
+        </div>
+
+        <!-- === Hero Call-To-Action Buttons === -->
+        <div class="hero-buttons">
+          <a href="#contact" class="btn primary-btn">Hire Me</a>
+          <a href="https://drive.google.com/file/d/1j7KbwqhZvij_U-yVj3yIeAbo8rTdT5Cz/view?usp=sharing" target="_blank"
+            class="btn secondary-btn">View Resume</a>
+        </div>
+      </div>
+
+      <!-- Hero image with reverse scroll effect -->
+      <div class="hero-image" data-scroll data-scroll-speed="-1">
+        <img src="images/undraw_in-the-office_e7pg.svg" alt="Developer Illustration">
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about" data-scroll-section>
+      <div class="about-container">
+        <!-- About Section Image -->
+        <div class="about-image">
+          <img src="images/undraw_developer-avatar_f6ac.svg" alt="Developer Avatar">
+        </div>
+        <!-- About Section Text -->
+        <div class="about-text">
+          <h2><span>About</span> Me</h2>
+          <p>I’m a self-taught <strong>MERN Stack Developer</strong> focused on building high-performance, scalable web
+            applications using <strong>MongoDB, Express.js, React, and Node.js.</strong></p>
+          <p>I sharpen my skills through free learning platforms, open-source contributions, and real-world projects.
+            Passionate about clean code and intuitive UI/UX, I continuously improve with the latest development trends.
+          </p>
+          <h3> What I Do</h3>
+          <ul class="about-list">
+            <li> Build full-stack apps using <strong> React, Node, Express, MongoDB</strong></li>
+            <li>Create modular, <strong>maintainable code</strong> with <strong>reusable components</strong></li>
+            <li>Develop mobile-first responsive layouts <strong>(Tailwind / CSS)</strong></li>
+            <li> Host apps on <strong>Netlify, Vercel, Render, and GitHub</strong></li>
+          </ul>
+
+          <h3 class="tech-stack"> Tech Stack</h3>
+          <p><strong>Frontend:</strong> HTML, CSS, JavaScript, React, Tailwind</p>
+          <p><strong>Backend:</strong> Node.js, Express.js</p>
+          <p><strong>Database:</strong> MongoDB, Mongoose</p>
+          <p><strong>Others:</strong> Git, GitHub, Postman, VS Code</p>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="skills" data-scroll-section>
+      <h2>Skills</h2>
+      <div class="skills-wrapper">
+        <div class="skills-grid">
+          <!-- Each skill card contains an icon and skill name -->
+          <div class="skill-card">
+            <img src="icons/html.png" alt="HTML Icon">
+            <h3>HTML5</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/css3.png" alt="CSS Icon">
+            <h3>CSS3</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/javascript.png" alt="JavaScript Icon">
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/react.png" alt="React Icon">
+            <h3>React.js</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/Node.js.png" alt="Node.js Icon">
+            <h3>Node.js</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/express.png" alt="Express Icon">
+            <h3>Express.js</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/mongodb.png" alt="MongoDB Icon">
+            <h3>MongoDB</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/github.png" alt="GitHub Icon">
+            <h3>Git & GitHub</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/Tailwind-CSS.png" alt="Tailwind CSS Icon">
+            <h3>Tailwind CSS</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/postman.png" alt="Postman Icon">
+            <h3>Postman</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/Visual-Studio-Code-(VS-Code).png" alt="VS Code Icon">
+            <h3>VS Code</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/responsive.png" alt="Responsive Design Icon">
+            <h3>Responsive Design</h3>
+          </div>
+          <div class="skill-card">
+            <img src="icons/api.png" alt="REST API Icon">
+            <h3>REST APIs</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECT EXPERIENCE SECTION ===== -->
+    <section class="experience" id="experience" data-scroll-section>
+      <h2 id="heading-project">Project Experience</h2>
+      <div class="project-wrapper">
+        <div class="project-cards">
+
+          <!-- === Project: ShopVerse === -->
+          <div class="project-card">
+            <h2 class="project-heading">ShopVerse</h2>
+            <p class="project-subheading">E-Commerce Frontend</p>
+            <p class="project-description">
+              A fully responsive, multi-section e-commerce website built using HTML, CSS, and JavaScript. Includes
+              animated product sections, modern UI/UX, category filters, and scrollable product carousels.
+            </p>
+            <div class="project-meta">
+              <span><strong>Role:</strong> Frontend Developer & Designer</span>
+              <a href="https://shopversse.netlify.app/" target="_blank" class="live-btn">Live Demo</a>
+            </div>
+          </div>
+
+          <!-- === Project: Chat App === -->
+         <div class="project-card">
+  <h2 class="project-heading">Real-time Chat App</h2>
+  <p class="project-subheading">MERN + Socket.IO</p>
+  <p class="project-description">
+    A real-time chat application developed as a group project using the MERN stack and Socket.IO. Built with
+    a React frontend, real-time syncing, and secure user authentication. Final deployment in progress.
+  </p>
+  <div class="project-meta">
+    <span><strong>Role:</strong> Frontend Developer</span>
+    <span class="live-btn coming-soon">Live Demo Coming Soon</span>
+  </div>
+</div>
+
+
+          <!-- === Project: Portfolio Website === -->
+          <div class="project-card">
+            <h2 class="project-heading">Portfolio Website</h2>
+            <p class="project-subheading">Responsive & Animated</p>
+            <p class="project-description">
+              A personal portfolio built using HTML, CSS, and JavaScript with smooth scroll animations and fully SEO
+              optimized structure.
+            </p>
+            <div class="project-meta">
+              <span><strong>Stack:</strong> HTML, CSS, JavaScript</span>
+              <a href="#" target="_blank" class="live-btn">Live Demo</a>
+            </div>
+          </div>
+
+          <!-- === Project: JS Mini Tasks === -->
+          <div class="project-card">
+            <h2 class="project-heading">JS Mini Tasks</h2>
+            <p class="project-subheading">JavaScript Practice Projects</p>
+            <p class="project-description">
+              A collection of small JavaScript practice projects involving DOM manipulation, timers, localStorage, and
+              user interactions.
+            </p>
+            <div class="project-meta">
+              <span><strong>Role:</strong> JavaScript Developer</span>
+              <a href="https://js-mini-tasks.netlify.app/" target="_blank" class="live-btn">Live Demo</a>
+            </div>
+          </div>
+
+          <!-- === Project: Fitness Freak === -->
+          <div class="project-card">
+            <h2 class="project-heading">Fitness Freak</h2>
+            <p class="project-subheading">Gym Website Landing Page</p>
+            <p class="project-description">
+              A modern landing page for a fitness brand. Features mobile-friendly layout, scroll animations, and clean
+              call-to-actions.
+            </p>
+            <div class="project-meta">
+              <span><strong>Role:</strong> UI Designer & Developer</span>
+              <a href="https://gym-fitnes-freak.netlify.app/" target="_blank" class="live-btn">Live Demo</a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+    </section>
+
+    <!-- ===== CONTACT FORM SECTION ===== -->
+    <section id="contact" class="contact" data-scroll-section>
+      <h2>Get in Touch</h2>
+      <form id="contact-form" class="contact-form">
+        <!-- Contact Name Input -->
+        <input type="text" name="user_name" placeholder="Your Name" required />
+
+        <!-- Email Address Input -->
+        <input type="email" name="user_email" placeholder="Your Email" required />
+
+        <!-- Subject Input -->
+        <input type="text" name="subject" placeholder="Subject" required />
+
+        <!-- Message Textarea -->
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit" class="live-btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+
+  <!-- ===== FOOTER SECTION ===== -->
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="#experience">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Dynamic copyright -->
+    <p>© <span id="year"></span> Vinay Raman. All rights reserved.</p>
+  </footer>
+  <!-- ===== GSAP Core Library (GreenSock Animation Platform) ===== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <!-- ===== GSAP ScrollTrigger Plugin for Scroll-Based Animations ===== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+  <script src="animation.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
