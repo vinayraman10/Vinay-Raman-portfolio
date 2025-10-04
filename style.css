@@ -489,6 +489,32 @@ filter: brightness(80%) contrast(20%);
     box-shadow: 0 4px 10px rgba(29, 78, 216, 0.25);
 }
 
+.project-subheading {
+  font-size: 0.95rem;
+  color: #ccc;
+  letter-spacing: 0.5px;
+}
+
+.in-progress {
+  color: #00ff88; /* highlight color */
+  font-weight: 600;
+  background: rgba(0, 255, 136, 0.1);
+  padding: 2px 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 255, 136, 0.3);
+  animation: blink 1.6s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+
 /* Contact */
 .contact h2 {
     text-align: center;
@@ -564,30 +590,93 @@ button:hover {
 
 /* Footer */
 .footer {
-    width: 100%;
-    background-color: var(--primary-bg);
-    color: #d1d5db;
-    padding: 1.5rem 1rem;
-    text-align: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-brand h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #ccc;
 }
 
 .footer-links {
-    margin-bottom: 0.5rem;
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Centers the links horizontally */
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+  margin-top: 10px; /* Optional spacing */
 }
 
 .footer-links a {
-    margin: 0 1rem;
-    color: #d1d5db;
-    text-decoration: none;
-    font-size: 0.95rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: var(--accent);
+  color: #00bcd4;
 }
 
-.footer p {
-    margin-top: 2rem;
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  color: #2c5364;
+  font-size: 18px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  background: #00bcd4;
+  color: white;
+}
+
+.footer-copy {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 
