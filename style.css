@@ -589,12 +589,18 @@ button:hover {
 }
 
 /* Footer */
+.line{
+    border-top: 0.5px solid white;
+}
+
+/* Footer */
 .footer {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background: var(--primary-bg);
   color: white;
   padding: 40px 20px;
   font-family: 'Poppins', sans-serif;
 }
+
 
 .footer-container {
   display: flex;
