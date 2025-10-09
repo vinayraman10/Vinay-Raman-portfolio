@@ -20,9 +20,12 @@ Email Service: EmailJS for client-side email delivery
 
 Deployment: Netlify with CI/CD directly from GitHub
 
-Version Control: Git and GitHub for version management                    
+Version Control: Git and GitHub for version management 
+
 
  ✨ Key Features
+
+ 
 ⚡ Optimized Performance — Minimal dependencies, fast load times, optimized assets
 
 📱 Fully Responsive — Seamless experience across mobile, tablet, and desktop devices
@@ -48,7 +51,9 @@ Vinay Raman — Frontend / MERN Developer
 
 Portfolio: https://vinay-raman.netlify.app/
 
+
 LinkedIn: https://www.linkedin.com/in/vinay-raman/
+
 
 <img width="1552" height="713" alt="Screenshot 2025-08-14 221730" src="https://github.com/user-attachments/assets/255423c6-54a2-4877-9835-7a21f2cb269a" />
 <img width="1536" height="756" alt="Screenshot 2025-08-14 221745" src="https://github.com/user-attachments/assets/a1330b36-bd4b-436f-81d7-387182d5e2ec" />
