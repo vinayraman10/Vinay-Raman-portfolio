@@ -1,6 +1,5 @@
 Personal Portfolio
-
-A fast, responsive, and animated personal portfolio built with HTML, CSS, and JavaScript, enhanced with Locomotive Scroll for smooth scrolling and scroll-triggered effects, and a contact form powered by EmailJS for live email delivery—deployed on Netlify with version control on GitHub.
+A fast, responsive personal portfolio built with vanilla JavaScript, showcasing modern web development techniques including smooth scrolling animations, parallax effects, and serverless email integration. The site demonstrates clean code architecture, performance optimization, and attention to user experience design.
 
 
 🔗 Live Demo
@@ -10,35 +9,30 @@ Production: https://vinay-raman.netlify.app/
 
 
 
-Tech Stack
+Category         |  Technologies                                   
+-----------------+-------------------------------------------------
+Frontend         |  HTML5, CSS3, Vanilla JavaScript (ES6+)         
+Animations       |  Locomotive Scroll (smooth scrolling & parallax)
+Email Service    |  EmailJS (client-side email delivery)           
+Deployment       |  Netlify (CI/CD from GitHub)                    
+Version Control  |  Git, GitHub                                    
 
-Frontend: HTML, CSS, Vanilla JavaScript
+ ✨ Key Features
+⚡ Optimized Performance — Minimal dependencies, fast load times, optimized assets
 
-Animations / UX: Locomotive Scroll (smooth scrolling, parallax)
+📱 Fully Responsive — Seamless experience across mobile, tablet, and desktop devices
 
-Messaging: EmailJS (client-side email for contact form)
+🎨 Smooth Animations — Locomotive Scroll integration for parallax and scroll-triggered effects
 
-Hosting & CI: Netlify (auto-deploy from GitHub)
+📬 Live Contact Form — EmailJS-powered messaging without backend infrastructure
 
-Version Control: Git & GitHub
+🛡️ Spam Protection — Honeypot field and EmailJS validation for form security
 
+🔍 SEO Optimized — Semantic HTML, meta tags, and Open Graph protocol
 
- ✨ Features
+📊 Analytics Ready — Easy integration for tracking tools (Google Analytics, etc.)
 
-⚡️ Blazing fast static site with optimized assets
-
-📱 Responsive layout for mobile, tablet, and desktop
-
-🧭 Smooth scrolling + parallax via Locomotive Scroll
-
-📬 Live email messaging via EmailJS (no backend required)
-
-📨 Spam-protected contact form (basic honeypot + EmailJS)
-
-🔍 SEO-ready meta tags & open graph
-
-📈 Analytics-ready (drop-in script optional)
-
+♿ Accessibility — ARIA labels and keyboard navigation support
 
 
  
