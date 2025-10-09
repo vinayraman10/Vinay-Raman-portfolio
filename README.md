@@ -13,9 +13,13 @@ Production: https://vinay-raman.netlify.app/
 🧠 Tech Stack
 
 Frontend: HTML5, CSS3, Vanilla JavaScript (ES6+)
+
 Animations: Locomotive Scroll for smooth scrolling and parallax effects
+
 Email Service: EmailJS for client-side email delivery
+
 Deployment: Netlify with CI/CD directly from GitHub
+
 Version Control: Git and GitHub for version management                    
 
  ✨ Key Features
