@@ -1,5 +1,6 @@
-Personal Portfolio
-A fast, responsive personal portfolio built with vanilla JavaScript, showcasing modern web development techniques including smooth scrolling animations, parallax effects, and serverless email integration. The site demonstrates clean code architecture, performance optimization, and attention to user experience design.
+🌐 Personal Portfolio Website
+
+A modern, responsive, and performance-optimized portfolio website built using HTML5, CSS3, and Vanilla JavaScript (ES6+), designed to showcase web development skills with smooth scrolling animations, parallax effects, and a fully functional contact form — all without a backend!
 
 
 🔗 Live Demo
@@ -9,13 +10,13 @@ Production: https://vinay-raman.netlify.app/
 
 
 
-Category         |  Technologies                                   
------------------+-------------------------------------------------
-Frontend         |  HTML5, CSS3, Vanilla JavaScript (ES6+)         
-Animations       |  Locomotive Scroll (smooth scrolling & parallax)
-Email Service    |  EmailJS (client-side email delivery)           
-Deployment       |  Netlify (CI/CD from GitHub)                    
-Version Control  |  Git, GitHub                                    
+🧠 Tech Stack
+
+Frontend: HTML5, CSS3, Vanilla JavaScript (ES6+)
+Animations: Locomotive Scroll for smooth scrolling and parallax effects
+Email Service: EmailJS for client-side email delivery
+Deployment: Netlify with CI/CD directly from GitHub
+Version Control: Git and GitHub for version management                    
 
  ✨ Key Features
 ⚡ Optimized Performance — Minimal dependencies, fast load times, optimized assets
