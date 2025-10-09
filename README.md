@@ -8,6 +8,8 @@ A fast, responsive, and animated personal portfolio built with HTML, CSS, and Ja
 Production: https://vinay-raman.netlify.app/
 
 
+
+
 Tech Stack
 
 Frontend: HTML, CSS, Vanilla JavaScript
